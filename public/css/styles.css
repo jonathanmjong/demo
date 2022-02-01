@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    margin: 1rem, 0;
+    display: grid;
+}
+
+header {
+    position: relative;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+div {
+    position: relative;
+    margin-top: 1rem;
+}
+
+form {
+    position: relative;
+    margin-top: 1rem;
+}
