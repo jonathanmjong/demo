@@ -12,7 +12,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.get('/', (req, res) => {
     console.log("GET /");
 
-    res.render('index', {fullName: "test name"});
+    const testName = "test name";
+
+    res.render('index', {fullName: testName});
 });
 
 app.post('/', (req, res) => {
