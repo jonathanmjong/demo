@@ -21,6 +21,11 @@ app.post('/', (req, res) => {
     res.render('index', {fullName: fullName});
 });
 
+app.get('/dogs', (req, res) => {
+    console.log("GET /dogs");
+    res.render('dogs');
+});
+
 app.listen(process.env.PORT || 3000, () => {
     console.log("toDoList server running");
 });
