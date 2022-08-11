@@ -22,7 +22,7 @@ app.post('/', (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("server running");
+    console.log("toDoList server running");
 });
 
 
